@@ -1,0 +1,254 @@
+raw_img_path,proc_img_path,class_name,dataset_name
+./data/raw\yes\Y17.jpg,./data/proc\train\yes\img_00000.jpeg,yes,train
+./data/raw\yes\Y90.jpg,./data/proc\train\yes\img_00001.jpeg,yes,train
+./data/raw\yes\Y158.JPG,./data/proc\train\yes\img_00002.jpeg,yes,train
+./data/raw\yes\Y146.JPG,./data/proc\train\yes\img_00003.jpeg,yes,train
+./data/raw\yes\Y161.JPG,./data/proc\train\yes\img_00004.jpeg,yes,train
+./data/raw\yes\Y74.jpg,./data/proc\train\yes\img_00005.jpeg,yes,train
+./data/raw\yes\Y156.JPG,./data/proc\train\yes\img_00006.jpeg,yes,train
+./data/raw\yes\Y252.jpg,./data/proc\train\yes\img_00007.jpeg,yes,train
+./data/raw\yes\Y148.JPG,./data/proc\train\yes\img_00008.jpeg,yes,train
+./data/raw\yes\Y159.JPG,./data/proc\train\yes\img_00009.jpeg,yes,train
+./data/raw\yes\Y257.jpg,./data/proc\train\yes\img_00010.jpeg,yes,train
+./data/raw\yes\Y54.jpg,./data/proc\train\yes\img_00011.jpeg,yes,train
+./data/raw\yes\Y22.jpg,./data/proc\train\yes\img_00012.jpeg,yes,train
+./data/raw\yes\Y95.jpg,./data/proc\train\yes\img_00013.jpeg,yes,train
+./data/raw\yes\Y49.JPG,./data/proc\train\yes\img_00014.jpeg,yes,train
+./data/raw\yes\Y258.JPG,./data/proc\train\yes\img_00015.jpeg,yes,train
+./data/raw\yes\Y26.jpg,./data/proc\train\yes\img_00016.jpeg,yes,train
+./data/raw\yes\Y114.JPG,./data/proc\train\yes\img_00017.jpeg,yes,train
+./data/raw\yes\Y60.jpg,./data/proc\train\yes\img_00018.jpeg,yes,train
+./data/raw\yes\Y183.jpg,./data/proc\train\yes\img_00019.jpeg,yes,train
+./data/raw\yes\Y52.jpg,./data/proc\train\yes\img_00020.jpeg,yes,train
+./data/raw\yes\Y117.JPG,./data/proc\train\yes\img_00021.jpeg,yes,train
+./data/raw\yes\Y14.jpg,./data/proc\train\yes\img_00022.jpeg,yes,train
+./data/raw\yes\Y105.jpg,./data/proc\train\yes\img_00023.jpeg,yes,train
+./data/raw\yes\Y28.jpg,./data/proc\train\yes\img_00024.jpeg,yes,train
+./data/raw\yes\Y116.JPG,./data/proc\train\yes\img_00025.jpeg,yes,train
+./data/raw\yes\Y53.jpg,./data/proc\train\yes\img_00026.jpeg,yes,train
+./data/raw\yes\Y82.jpg,./data/proc\train\yes\img_00027.jpeg,yes,train
+./data/raw\yes\Y40.JPG,./data/proc\train\yes\img_00028.jpeg,yes,train
+./data/raw\yes\Y67.JPG,./data/proc\train\yes\img_00029.jpeg,yes,train
+./data/raw\yes\Y38.jpg,./data/proc\train\yes\img_00030.jpeg,yes,train
+./data/raw\yes\Y3.jpg,./data/proc\train\yes\img_00031.jpeg,yes,train
+./data/raw\yes\Y185.jpg,./data/proc\train\yes\img_00032.jpeg,yes,train
+./data/raw\yes\Y113.JPG,./data/proc\train\yes\img_00033.jpeg,yes,train
+./data/raw\yes\Y168.jpg,./data/proc\train\yes\img_00034.jpeg,yes,train
+./data/raw\yes\Y153.jpg,./data/proc\train\yes\img_00035.jpeg,yes,train
+./data/raw\yes\Y169.jpg,./data/proc\train\yes\img_00036.jpeg,yes,train
+./data/raw\yes\Y8.jpg,./data/proc\train\yes\img_00037.jpeg,yes,train
+./data/raw\yes\Y29.jpg,./data/proc\train\yes\img_00038.jpeg,yes,train
+./data/raw\yes\Y86.JPG,./data/proc\train\yes\img_00039.jpeg,yes,train
+./data/raw\yes\Y187.jpg,./data/proc\train\yes\img_00040.jpeg,yes,train
+./data/raw\yes\Y11.jpg,./data/proc\train\yes\img_00041.jpeg,yes,train
+./data/raw\yes\Y71.JPG,./data/proc\train\yes\img_00042.jpeg,yes,train
+./data/raw\yes\Y13.jpg,./data/proc\train\yes\img_00043.jpeg,yes,train
+./data/raw\yes\Y97.JPG,./data/proc\train\yes\img_00044.jpeg,yes,train
+./data/raw\yes\Y188.jpg,./data/proc\train\yes\img_00045.jpeg,yes,train
+./data/raw\yes\Y47.JPG,./data/proc\train\yes\img_00046.jpeg,yes,train
+./data/raw\yes\Y77.jpg,./data/proc\train\yes\img_00047.jpeg,yes,train
+./data/raw\yes\Y167.JPG,./data/proc\train\yes\img_00048.jpeg,yes,train
+./data/raw\yes\Y254.jpg,./data/proc\train\yes\img_00049.jpeg,yes,train
+./data/raw\yes\Y111.JPG,./data/proc\train\yes\img_00050.jpeg,yes,train
+./data/raw\yes\Y89.JPG,./data/proc\train\yes\img_00051.jpeg,yes,train
+./data/raw\yes\Y163.JPG,./data/proc\train\yes\img_00052.jpeg,yes,train
+./data/raw\yes\Y4.jpg,./data/proc\train\yes\img_00053.jpeg,yes,train
+./data/raw\yes\Y58.JPG,./data/proc\train\yes\img_00054.jpeg,yes,train
+./data/raw\yes\Y165.JPG,./data/proc\train\yes\img_00055.jpeg,yes,train
+./data/raw\yes\Y182.JPG,./data/proc\train\yes\img_00056.jpeg,yes,train
+./data/raw\yes\Y9.jpg,./data/proc\train\yes\img_00057.jpeg,yes,train
+./data/raw\yes\Y249.JPG,./data/proc\train\yes\img_00058.jpeg,yes,train
+./data/raw\yes\Y41.jpg,./data/proc\train\yes\img_00059.jpeg,yes,train
+./data/raw\yes\Y44.JPG,./data/proc\train\yes\img_00060.jpeg,yes,train
+./data/raw\yes\Y248.JPG,./data/proc\train\yes\img_00061.jpeg,yes,train
+./data/raw\yes\Y73.jpg,./data/proc\train\yes\img_00062.jpeg,yes,train
+./data/raw\yes\Y62.jpg,./data/proc\train\yes\img_00063.jpeg,yes,train
+./data/raw\yes\Y21.jpg,./data/proc\train\yes\img_00064.jpeg,yes,train
+./data/raw\yes\Y23.JPG,./data/proc\train\yes\img_00065.jpeg,yes,train
+./data/raw\yes\Y91.jpg,./data/proc\train\yes\img_00066.jpeg,yes,train
+./data/raw\yes\Y147.JPG,./data/proc\train\yes\img_00067.jpeg,yes,train
+./data/raw\yes\Y92.png,./data/proc\train\yes\img_00068.jpeg,yes,train
+./data/raw\yes\Y42.jpg,./data/proc\train\yes\img_00069.jpeg,yes,train
+./data/raw\yes\Y55.jpg,./data/proc\train\yes\img_00070.jpeg,yes,train
+./data/raw\yes\Y250.jpg,./data/proc\train\yes\img_00071.jpeg,yes,train
+./data/raw\yes\Y51.jpg,./data/proc\train\yes\img_00072.jpeg,yes,train
+./data/raw\yes\Y245.jpg,./data/proc\train\yes\img_00073.jpeg,yes,train
+./data/raw\yes\Y2.jpg,./data/proc\train\yes\img_00074.jpeg,yes,train
+./data/raw\yes\Y61.jpg,./data/proc\train\yes\img_00075.jpeg,yes,train
+./data/raw\yes\Y256.JPG,./data/proc\train\yes\img_00076.jpeg,yes,train
+./data/raw\yes\Y19.JPG,./data/proc\train\yes\img_00077.jpeg,yes,train
+./data/raw\yes\Y79.jpg,./data/proc\train\yes\img_00078.jpeg,yes,train
+./data/raw\yes\Y81.jpg,./data/proc\train\yes\img_00079.jpeg,yes,train
+./data/raw\yes\Y170.JPG,./data/proc\train\yes\img_00080.jpeg,yes,train
+./data/raw\yes\Y99.JPG,./data/proc\train\yes\img_00081.jpeg,yes,train
+./data/raw\yes\Y12.jpg,./data/proc\train\yes\img_00082.jpeg,yes,train
+./data/raw\yes\Y155.JPG,./data/proc\train\yes\img_00083.jpeg,yes,train
+./data/raw\yes\Y59.JPG,./data/proc\train\yes\img_00084.jpeg,yes,train
+./data/raw\yes\Y192.JPG,./data/proc\train\yes\img_00085.jpeg,yes,train
+./data/raw\yes\Y246.JPG,./data/proc\train\yes\img_00086.jpeg,yes,train
+./data/raw\yes\Y160.JPG,./data/proc\train\yes\img_00087.jpeg,yes,train
+./data/raw\yes\Y112.JPG,./data/proc\train\yes\img_00088.jpeg,yes,train
+./data/raw\yes\Y75.JPG,./data/proc\train\yes\img_00089.jpeg,yes,train
+./data/raw\yes\Y85.JPG,./data/proc\train\yes\img_00090.jpeg,yes,train
+./data/raw\yes\Y34.jpg,./data/proc\train\yes\img_00091.jpeg,yes,train
+./data/raw\yes\Y251.JPG,./data/proc\train\yes\img_00092.jpeg,yes,train
+./data/raw\yes\Y186.jpg,./data/proc\val\yes\img_00093.jpeg,yes,val
+./data/raw\yes\Y15.jpg,./data/proc\val\yes\img_00094.jpeg,yes,val
+./data/raw\yes\Y92.jpg,./data/proc\val\yes\img_00095.jpeg,yes,val
+./data/raw\yes\Y164.JPG,./data/proc\val\yes\img_00096.jpeg,yes,val
+./data/raw\yes\Y244.JPG,./data/proc\val\yes\img_00097.jpeg,yes,val
+./data/raw\yes\Y7.jpg,./data/proc\val\yes\img_00098.jpeg,yes,val
+./data/raw\yes\Y259.JPG,./data/proc\val\yes\img_00099.jpeg,yes,val
+./data/raw\yes\Y100.JPG,./data/proc\val\yes\img_00100.jpeg,yes,val
+./data/raw\yes\Y45.JPG,./data/proc\val\yes\img_00101.jpeg,yes,val
+./data/raw\yes\Y102.jpg,./data/proc\val\yes\img_00102.jpeg,yes,val
+./data/raw\yes\Y96.jpg,./data/proc\val\yes\img_00103.jpeg,yes,val
+./data/raw\yes\Y50.JPG,./data/proc\val\yes\img_00104.jpeg,yes,val
+./data/raw\yes\Y120.JPG,./data/proc\val\yes\img_00105.jpeg,yes,val
+./data/raw\yes\Y1.jpg,./data/proc\val\yes\img_00106.jpeg,yes,val
+./data/raw\yes\Y195.JPG,./data/proc\val\yes\img_00107.jpeg,yes,val
+./data/raw\yes\Y31.jpg,./data/proc\val\yes\img_00108.jpeg,yes,val
+./data/raw\yes\Y30.jpg,./data/proc\val\yes\img_00109.jpeg,yes,val
+./data/raw\yes\Y78.jpg,./data/proc\val\yes\img_00110.jpeg,yes,val
+./data/raw\yes\Y65.JPG,./data/proc\val\yes\img_00111.jpeg,yes,val
+./data/raw\yes\Y108.jpg,./data/proc\val\yes\img_00112.jpeg,yes,val
+./data/raw\yes\Y16.JPG,./data/proc\val\yes\img_00113.jpeg,yes,val
+./data/raw\yes\Y70.jpg,./data/proc\val\yes\img_00114.jpeg,yes,val
+./data/raw\yes\Y39.jpg,./data/proc\val\yes\img_00115.jpeg,yes,val
+./data/raw\yes\Y20.jpg,./data/proc\val\yes\img_00116.jpeg,yes,val
+./data/raw\yes\Y27.jpg,./data/proc\val\yes\img_00117.jpeg,yes,val
+./data/raw\yes\Y106.jpg,./data/proc\val\yes\img_00118.jpeg,yes,val
+./data/raw\yes\Y193.JPG,./data/proc\val\yes\img_00119.jpeg,yes,val
+./data/raw\yes\Y180.jpg,./data/proc\val\yes\img_00120.jpeg,yes,val
+./data/raw\yes\Y166.JPG,./data/proc\val\yes\img_00121.jpeg,yes,val
+./data/raw\yes\Y37.jpg,./data/proc\val\yes\img_00122.jpeg,yes,val
+./data/raw\yes\Y103.jpg,./data/proc\val\yes\img_00123.jpeg,yes,val
+./data/raw\yes\Y184.JPG,./data/proc\test\yes\img_00124.jpeg,yes,test
+./data/raw\yes\Y66.JPG,./data/proc\test\yes\img_00125.jpeg,yes,test
+./data/raw\yes\Y255.JPG,./data/proc\test\yes\img_00126.jpeg,yes,test
+./data/raw\yes\Y101.jpg,./data/proc\test\yes\img_00127.jpeg,yes,test
+./data/raw\yes\Y154.jpg,./data/proc\test\yes\img_00128.jpeg,yes,test
+./data/raw\yes\Y104.jpg,./data/proc\test\yes\img_00129.jpeg,yes,test
+./data/raw\yes\Y242.JPG,./data/proc\test\yes\img_00130.jpeg,yes,test
+./data/raw\yes\Y24.jpg,./data/proc\test\yes\img_00131.jpeg,yes,test
+./data/raw\yes\Y33.jpg,./data/proc\test\yes\img_00132.jpeg,yes,test
+./data/raw\yes\Y98.JPG,./data/proc\test\yes\img_00133.jpeg,yes,test
+./data/raw\yes\Y46.jpg,./data/proc\test\yes\img_00134.jpeg,yes,test
+./data/raw\yes\Y18.JPG,./data/proc\test\yes\img_00135.jpeg,yes,test
+./data/raw\yes\Y157.JPG,./data/proc\test\yes\img_00136.jpeg,yes,test
+./data/raw\yes\Y194.jpg,./data/proc\test\yes\img_00137.jpeg,yes,test
+./data/raw\yes\Y36.JPG,./data/proc\test\yes\img_00138.jpeg,yes,test
+./data/raw\yes\Y76.jpg,./data/proc\test\yes\img_00139.jpeg,yes,test
+./data/raw\yes\Y32.jpg,./data/proc\test\yes\img_00140.jpeg,yes,test
+./data/raw\yes\Y6.jpg,./data/proc\test\yes\img_00141.jpeg,yes,test
+./data/raw\yes\Y109.JPG,./data/proc\test\yes\img_00142.jpeg,yes,test
+./data/raw\yes\Y162.jpg,./data/proc\test\yes\img_00143.jpeg,yes,test
+./data/raw\yes\Y243.JPG,./data/proc\test\yes\img_00144.jpeg,yes,test
+./data/raw\yes\Y56.jpg,./data/proc\test\yes\img_00145.jpeg,yes,test
+./data/raw\yes\Y107.jpg,./data/proc\test\yes\img_00146.jpeg,yes,test
+./data/raw\yes\Y25.jpg,./data/proc\test\yes\img_00147.jpeg,yes,test
+./data/raw\yes\Y181.jpg,./data/proc\test\yes\img_00148.jpeg,yes,test
+./data/raw\yes\Y115.JPG,./data/proc\test\yes\img_00149.jpeg,yes,test
+./data/raw\yes\Y69.jpg,./data/proc\test\yes\img_00150.jpeg,yes,test
+./data/raw\yes\Y253.JPG,./data/proc\test\yes\img_00151.jpeg,yes,test
+./data/raw\yes\Y10.jpg,./data/proc\test\yes\img_00152.jpeg,yes,test
+./data/raw\yes\Y247.JPG,./data/proc\test\yes\img_00153.jpeg,yes,test
+./data/raw\yes\Y35.jpg,./data/proc\test\yes\img_00154.jpeg,yes,test
+./data/raw\no\26 no.jpg,./data/proc\train\no\img_00155.jpeg,no,train
+./data/raw\no\46 no.jpg,./data/proc\train\no\img_00156.jpeg,no,train
+./data/raw\no\30 no.jpg,./data/proc\train\no\img_00157.jpeg,no,train
+./data/raw\no\7 no.jpg,./data/proc\train\no\img_00158.jpeg,no,train
+./data/raw\no\39 no.jpg,./data/proc\train\no\img_00159.jpeg,no,train
+./data/raw\no\N3.jpg,./data/proc\train\no\img_00160.jpeg,no,train
+./data/raw\no\no 95.jpg,./data/proc\train\no\img_00161.jpeg,no,train
+./data/raw\no\33 no.jpg,./data/proc\train\no\img_00162.jpeg,no,train
+./data/raw\no\no 96.jpg,./data/proc\train\no\img_00163.jpeg,no,train
+./data/raw\no\18 no.jpg,./data/proc\train\no\img_00164.jpeg,no,train
+./data/raw\no\no 6.jpg,./data/proc\train\no\img_00165.jpeg,no,train
+./data/raw\no\no 923.jpg,./data/proc\train\no\img_00166.jpeg,no,train
+./data/raw\no\37 no.jpg,./data/proc\train\no\img_00167.jpeg,no,train
+./data/raw\no\27 no.jpg,./data/proc\train\no\img_00168.jpeg,no,train
+./data/raw\no\35 no.jpg,./data/proc\train\no\img_00169.jpeg,no,train
+./data/raw\no\no 8.jpg,./data/proc\train\no\img_00170.jpeg,no,train
+./data/raw\no\No11.jpg,./data/proc\train\no\img_00171.jpeg,no,train
+./data/raw\no\17 no.jpg,./data/proc\train\no\img_00172.jpeg,no,train
+./data/raw\no\25 no.jpg,./data/proc\train\no\img_00173.jpeg,no,train
+./data/raw\no\no 10.jpg,./data/proc\train\no\img_00174.jpeg,no,train
+./data/raw\no\no 92.jpg,./data/proc\train\no\img_00175.jpeg,no,train
+./data/raw\no\43 no.jpg,./data/proc\train\no\img_00176.jpeg,no,train
+./data/raw\no\no 90.jpg,./data/proc\train\no\img_00177.jpeg,no,train
+./data/raw\no\12 no.jpg,./data/proc\train\no\img_00178.jpeg,no,train
+./data/raw\no\5 no.jpg,./data/proc\train\no\img_00179.jpeg,no,train
+./data/raw\no\N20.JPG,./data/proc\train\no\img_00180.jpeg,no,train
+./data/raw\no\No22.jpg,./data/proc\train\no\img_00181.jpeg,no,train
+./data/raw\no\no 94.jpg,./data/proc\train\no\img_00182.jpeg,no,train
+./data/raw\no\N17.jpg,./data/proc\train\no\img_00183.jpeg,no,train
+./data/raw\no\No20.jpg,./data/proc\train\no\img_00184.jpeg,no,train
+./data/raw\no\no 91.jpeg,./data/proc\train\no\img_00185.jpeg,no,train
+./data/raw\no\no 98.jpg,./data/proc\train\no\img_00186.jpeg,no,train
+./data/raw\no\28 no.jpg,./data/proc\train\no\img_00187.jpeg,no,train
+./data/raw\no\no 100.jpg,./data/proc\train\no\img_00188.jpeg,no,train
+./data/raw\no\no 1.jpg,./data/proc\train\no\img_00189.jpeg,no,train
+./data/raw\no\No21.jpg,./data/proc\train\no\img_00190.jpeg,no,train
+./data/raw\no\11 no.jpg,./data/proc\train\no\img_00191.jpeg,no,train
+./data/raw\no\no 5.jpeg,./data/proc\train\no\img_00192.jpeg,no,train
+./data/raw\no\N6.jpg,./data/proc\train\no\img_00193.jpeg,no,train
+./data/raw\no\No19.jpg,./data/proc\train\no\img_00194.jpeg,no,train
+./data/raw\no\31 no.jpg,./data/proc\train\no\img_00195.jpeg,no,train
+./data/raw\no\no 89.jpg,./data/proc\train\no\img_00196.jpeg,no,train
+./data/raw\no\41 no.jpg,./data/proc\train\no\img_00197.jpeg,no,train
+./data/raw\no\N16.jpg,./data/proc\train\no\img_00198.jpeg,no,train
+./data/raw\no\4 no.jpg,./data/proc\train\no\img_00199.jpeg,no,train
+./data/raw\no\no 7.jpeg,./data/proc\train\no\img_00200.jpeg,no,train
+./data/raw\no\No18.jpg,./data/proc\train\no\img_00201.jpeg,no,train
+./data/raw\no\no 9.png,./data/proc\train\no\img_00202.jpeg,no,train
+./data/raw\no\13 no.jpg,./data/proc\train\no\img_00203.jpeg,no,train
+./data/raw\no\N19.JPG,./data/proc\train\no\img_00204.jpeg,no,train
+./data/raw\no\19 no.jpg,./data/proc\train\no\img_00205.jpeg,no,train
+./data/raw\no\no 3.jpg,./data/proc\train\no\img_00206.jpeg,no,train
+./data/raw\no\No15.jpg,./data/proc\train\no\img_00207.jpeg,no,train
+./data/raw\no\32 no.jpg,./data/proc\train\no\img_00208.jpeg,no,train
+./data/raw\no\45 no.jpg,./data/proc\train\no\img_00209.jpeg,no,train
+./data/raw\no\42 no.jpg,./data/proc\train\no\img_00210.jpeg,no,train
+./data/raw\no\50 no.jpg,./data/proc\train\no\img_00211.jpeg,no,train
+./data/raw\no\15 no.jpg,./data/proc\train\no\img_00212.jpeg,no,train
+./data/raw\no\22 no.jpg,./data/proc\val\no\img_00213.jpeg,no,val
+./data/raw\no\N22.JPG,./data/proc\val\no\img_00214.jpeg,no,val
+./data/raw\no\8 no.jpg,./data/proc\val\no\img_00215.jpeg,no,val
+./data/raw\no\2 no.jpeg,./data/proc\val\no\img_00216.jpeg,no,val
+./data/raw\no\No13.jpg,./data/proc\val\no\img_00217.jpeg,no,val
+./data/raw\no\no 97.jpg,./data/proc\val\no\img_00218.jpeg,no,val
+./data/raw\no\no.jpg,./data/proc\val\no\img_00219.jpeg,no,val
+./data/raw\no\21 no.jpg,./data/proc\val\no\img_00220.jpeg,no,val
+./data/raw\no\10 no.jpg,./data/proc\val\no\img_00221.jpeg,no,val
+./data/raw\no\23 no.jpg,./data/proc\val\no\img_00222.jpeg,no,val
+./data/raw\no\No12.jpg,./data/proc\val\no\img_00223.jpeg,no,val
+./data/raw\no\no 4.jpg,./data/proc\val\no\img_00224.jpeg,no,val
+./data/raw\no\36 no.jpg,./data/proc\val\no\img_00225.jpeg,no,val
+./data/raw\no\9 no.jpg,./data/proc\val\no\img_00226.jpeg,no,val
+./data/raw\no\47 no.jpg,./data/proc\val\no\img_00227.jpeg,no,val
+./data/raw\no\20 no.jpg,./data/proc\val\no\img_00228.jpeg,no,val
+./data/raw\no\48 no.jpeg,./data/proc\val\no\img_00229.jpeg,no,val
+./data/raw\no\44no.jpg,./data/proc\val\no\img_00230.jpeg,no,val
+./data/raw\no\N5.jpg,./data/proc\val\no\img_00231.jpeg,no,val
+./data/raw\no\No17.jpg,./data/proc\val\no\img_00232.jpeg,no,val
+./data/raw\no\14 no.jpg,./data/proc\test\no\img_00233.jpeg,no,test
+./data/raw\no\No16.jpg,./data/proc\test\no\img_00234.jpeg,no,test
+./data/raw\no\38 no.jpg,./data/proc\test\no\img_00235.jpeg,no,test
+./data/raw\no\N15.jpg,./data/proc\test\no\img_00236.jpeg,no,test
+./data/raw\no\N2.JPG,./data/proc\test\no\img_00237.jpeg,no,test
+./data/raw\no\N11.jpg,./data/proc\test\no\img_00238.jpeg,no,test
+./data/raw\no\No14.jpg,./data/proc\test\no\img_00239.jpeg,no,test
+./data/raw\no\24 no.jpg,./data/proc\test\no\img_00240.jpeg,no,test
+./data/raw\no\29 no.jpg,./data/proc\test\no\img_00241.jpeg,no,test
+./data/raw\no\6 no.jpg,./data/proc\test\no\img_00242.jpeg,no,test
+./data/raw\no\40 no.jpg,./data/proc\test\no\img_00243.jpeg,no,test
+./data/raw\no\N1.JPG,./data/proc\test\no\img_00244.jpeg,no,test
+./data/raw\no\N21.jpg,./data/proc\test\no\img_00245.jpeg,no,test
+./data/raw\no\N26.JPG,./data/proc\test\no\img_00246.jpeg,no,test
+./data/raw\no\1 no.jpeg,./data/proc\test\no\img_00247.jpeg,no,test
+./data/raw\no\no 2.jpg,./data/proc\test\no\img_00248.jpeg,no,test
+./data/raw\no\no 99.jpg,./data/proc\test\no\img_00249.jpeg,no,test
+./data/raw\no\34 no.jpg,./data/proc\test\no\img_00250.jpeg,no,test
+./data/raw\no\49 no.jpg,./data/proc\test\no\img_00251.jpeg,no,test
+./data/raw\no\3 no.jpg,./data/proc\test\no\img_00252.jpeg,no,test
