@@ -1,5 +1,5 @@
 import uvicorn
-from fastapi import FastAPI, Request, UploadFile
+from fastapi import FastAPI, Request, UploadFile, File
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
@@ -12,14 +12,15 @@ import keras
 from keras.models import load_model
 from pydantic import BaseModel
 
+
 app = FastAPI()
 # Connexion à la base de données MongoDB
 client = MongoClient("mongodb://localhost:27017/")
-db = client["braintumor"]  # Remplacez "your_database_name" par le nom de votre base de données MongoDB
+db = client["braintumor"] 
 
 # load model
 loaded_model = load_model('my_model.h5')
-
+model = load_model('my_model.h5')
 # Modèle Pydantic pour les données du patient
 class PatientModel(BaseModel):
     name: str
@@ -62,12 +63,30 @@ def add_patient(request: Request):
     return templates.TemplateResponse("add_patient.html", {"request": request})
 
 
+from fastapi import UploadFile
+
 @app.post("/add_patient")
-async def add_patient_post(patient: PatientModel):
-    # Insérer le patient dans la base de données
+async def add_patient_post(patient: PatientModel, img_bytes: UploadFile = File(...)):
+    # Process the image and make a prediction
+    img_bytes = BytesIO(await img_bytes.read())
+    image_pil = Image.open(img_bytes)
+    X_img = np.array(image_pil)[:, :, ::-1].astype('uint8')
+    X_img = np.expand_dims(X_img, axis=0)
+    X_img_norm = normalize_images(X_img, (224, 224))
+    pred = model.predict(X_img_norm)
+    
+    # Convert prediction to a suitable format
+    tumor_probability = float(pred[0][0])
+    
+    # Prepare patient data including the prediction
     patient_data = patient.dict()
+    patient_data["scan"] = img_bytes.getvalue().decode('utf-8') # Assuming you want to store the image as a string
+    patient_data["prediction"] = tumor_probability
+    
+    # Insert the patient data into the database
     db.patients.insert_one(patient_data)
-    return JSONResponse(content={"redirect_url": "/view_patients"})
+    
+    return JSONResponse(content={"message": "Patient added successfully", "patient_id": str(patient_data["_id"])})
 
 
 # Route pour visualiser tous les patients
