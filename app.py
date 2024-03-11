@@ -13,7 +13,6 @@ from keras.models import load_model
 from pydantic import BaseModel
 
 app = FastAPI()
-
 # Connexion à la base de données MongoDB
 client = MongoClient("mongodb://localhost:27017/")
 db = client["braintumor"]  # Remplacez "your_database_name" par le nom de votre base de données MongoDB
@@ -87,17 +86,6 @@ async def edit_patient(request: Request, patient_id: str):
     return templates.TemplateResponse("edit_patient.html", {"request": request, "patient": patient,
                                                             "patient_id": patient_id})
 
-@app.post('/predict/')
-async def predict(img_bytes: UploadFile):
-    img_bytes = BytesIO(await img_bytes.read())
-    image_pil = Image.open(img_bytes)
-    X_img = np.array(image_pil)[:, :, ::-1].astype('uint8')
-    
-    # Use the loaded model for prediction
-    prediction = loaded_model.predict(X_img)
-    
-    # Convert prediction to a suitable format for response
-    return JSONResponse(content={"prediction": prediction.tolist()})
 
 @app.post("/edit_patient/{patient_id}")
 async def edit_patient_post(patient_id: str, patient: PatientUpdateModel):
