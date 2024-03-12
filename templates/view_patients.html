@@ -2,19 +2,24 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>View Patients</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='styles.css') }}">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', path='styles.css') }}"
+    />
+  </head>
+  <body>
     <h1>View Patients</h1>
 
     <a href="{{ url_for('add_patient') }}">Add Patient</a>
 
     <table border="1">
+<<<<<<< Updated upstream:templates/view_patients.html
         <thead>
             <tr>
                 <th>Name</th>
@@ -35,6 +40,32 @@
                 </tr>
             {% endfor %}
         </tbody>
+=======
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Birthdate</th>
+          <th>Gender</th>
+          <th>Prediction</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for patient in patients %}
+        <tr>
+          <td>{{ patient.name }}</td>
+          <td>{{ patient.birthdate}}</td>
+          <td>{{ patient.gender }}</td>
+          <td>{{ patient.prediction}}</td>
+          <td>
+            <a href="{{ url_for('edit_patient', patient_id=patient.id) }}"
+              >Edit</a
+            >
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+>>>>>>> Stashed changes:braintumor-ui/templates/view_patients.html
     </table>
-</body>
+  </body>
 </html>

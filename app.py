@@ -12,11 +12,15 @@ import keras
 from keras.models import load_model
 from pydantic import BaseModel
 
-
 app = FastAPI()
 # Connexion à la base de données MongoDB
+<<<<<<< Updated upstream:app.py
 client = MongoClient("mongodb://localhost:27017/")
 db = client["braintumor"] 
+=======
+client = MongoClient("mongodb://localhost:27017")
+db = client["braintumor"]  # Remplacez "your_database_name" par le nom de votre base de données MongoDB
+>>>>>>> Stashed changes:braintumor-ui/app.py
 
 # load model
 loaded_model = load_model('my_model.h5')
@@ -86,7 +90,19 @@ async def add_patient_post(patient: PatientModel, img_bytes: UploadFile = File(.
     # Insert the patient data into the database
     db.patients.insert_one(patient_data)
     
+<<<<<<< Updated upstream:app.py
     return JSONResponse(content={"message": "Patient added successfully", "patient_id": str(patient_data["_id"])})
+=======
+    files = {'img_bytes': ('nom_du_fichier_qui_ne_sert_a_rien.jpg', base64.b64decode(patient.scan))}
+    # Make a POST request to the FastAPI endpoint
+    response = requests.post('http://127.0.0.1:8001/predict/', files=files)
+    print(response.content)
+
+    
+    
+    
+    return RedirectResponse(url="/view_patients")
+>>>>>>> Stashed changes:braintumor-ui/app.py
 
 
 # Route pour visualiser tous les patients
