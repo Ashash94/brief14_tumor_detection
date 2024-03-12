@@ -65,12 +65,18 @@ async def predict( img_bytes: UploadFile): #normalement il y a le parametre : pa
 
     pred = model.predict(X_img_norm)
     tumor_probability = float(pred[0][0])
+    if tumor_probability < 0.3:
+        message = "Faible probabilité de cancer"
+    elif tumor_probability < 0.7:
+        message = " probabilité moyenne de cancer  "  
+    else:
+        message = "Forte probabilité de cancer "
 
     # patient_data = patient.dict()
     # patient_data["scan"] = img_bytes.getvalue().decode('utf-8') # Assuming you want to store the image as a string
     # patient_data["prediction"] = tumor_probability
-    
-    return JSONResponse(content={ "prediction": tumor_probability}) #on met ca de coté egalement: "message": "Patient added successfully", "patient_id": str(patient_data["_id"])
+    #interperetation des resultat , si entre 0 et 0,3 possible que tu n'ai pas le cancer , si 0,3 et 0,7 alors il faux rester mefiant , et entre 0,7 et 1 bye bye 
+    return JSONResponse(content={ "prediction": tumor_probability , "message":message }) #on met ca de coté egalement: "message": "Patient added successfully", "patient_id": str(patient_data["_id"])
 
 
 
