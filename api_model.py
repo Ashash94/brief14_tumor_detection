@@ -2,23 +2,20 @@ from io import BytesIO
 import uvicorn
 from PIL import Image
 from fastapi import FastAPI, UploadFile
+from fastapi.responses import JSONResponse
 import cv2
 import numpy as np
-import mlflow
-from tensorflow.keras.models import load_model # Corrected import
-from io import BytesIO
-
-import uvicorn
-from PIL import Image
-from fastapi import FastAPI, UploadFile
-import cv2
-import numpy as np
-import mlflow
+from tensorflow.keras.models import load_model
+from pydantic import BaseModel
 
 app = FastAPI()
 
-model = None
+model = load_model('my_model.h5')
 
+class PatientModel(BaseModel):
+    name: str
+    age:int
+    gender: str
 
 def normalize_images(X, target_size):
     normalized_images = [None] * len(X)
@@ -57,7 +54,7 @@ def normalize_images(X, target_size):
 
 
 @app.post('/predict/')
-async def predict(img_bytes: UploadFile):
+async def predict( img_bytes: UploadFile): #normalement il y a le parametre : patient: PatientModel mais pour le test on l'enleve 
     img_bytes = BytesIO(await img_bytes.read())
     image_pil = Image.open(img_bytes)
     X_img = np.array(image_pil)[:, :, ::-1].astype('uint8')
@@ -67,9 +64,13 @@ async def predict(img_bytes: UploadFile):
     X_img_norm = normalize_images(X_img,(224, 224))
 
     pred = model.predict(X_img_norm)
+    tumor_probability = float(pred[0][0])
 
-    return {'tumor_probability': float(pred[0][0])}
-
+    # patient_data = patient.dict()
+    # patient_data["scan"] = img_bytes.getvalue().decode('utf-8') # Assuming you want to store the image as a string
+    # patient_data["prediction"] = tumor_probability
+    
+    return JSONResponse(content={ "prediction": tumor_probability}) #on met ca de coté egalement: "message": "Patient added successfully", "patient_id": str(patient_data["_id"])
 
 
 
