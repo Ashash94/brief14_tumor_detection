@@ -15,7 +15,7 @@ from pydantic import BaseModel
 app = FastAPI()
 # Connexion à la base de données MongoDB
 client = MongoClient("mongodb://localhost:27017/")
-db = client["braintumor"]  # Remplacez "your_database_name" par le nom de votre base de données MongoDB
+db = client["braintumor"]  
 
 # load model
 loaded_model = load_model('my_model.h5')
